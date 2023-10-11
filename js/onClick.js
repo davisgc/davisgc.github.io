@@ -49,6 +49,16 @@ function Project(){
     workspace[0].innerHTML += "<p onclick='reloadPage()'>Click This To Reload</p>";
 }
 
+function PopCat(){
+    console.log("changed tabs");
+    let title = document.getElementsByClassName("leftMenuItem");
+    let workspace = document.getElementsByClassName("menuSubItem");
+    title[0].innerHTML = 'Feed the Cat';
+    title[0].innerHTML += '<div class="menuSubItem">\n';
+    workspace[0].innerHTML = "<img id='fish' src='./img/fish.jpg' width=128px onmousedown='mouseDownFish()'>";
+    workspace[0].innerHTML += "<br><p id='catface'><img src=./img/cat.jpg></p>"
+}
+
 function fixFace(){
     console.log("Fixed face");
     let workspace = document.getElementsByClassName("mugshot");
@@ -91,6 +101,20 @@ function keyDownEx(){
     } else {
         workspace.innerText = "I said use Shift";
     }
+}
+
+function mouseDownFish(){
+    console.log("grabbed fish");
+    let workspace = document.getElementById("catface");
+    workspace.innerHTML = "<br><p id='catface'><img src=./img/pop.jpg onmouseup='mouseUpFish()'></p>";
+}
+
+function mouseUpFish(){
+    console.log("let go of fish");
+    let workspace = document.getElementById("catface");
+    workspace.innerHTML = "<br><p id='catface'><img src=./img/cat.jpg></p>";
+    let del = document.getElementById("fish");
+    del.src = "";
 }
 
 function reloadPage(){
