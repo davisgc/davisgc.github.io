@@ -112,7 +112,7 @@ function mouseDownFish(){
 function mouseUpFish(){
     console.log("let go of fish");
     let workspace = document.getElementById("catface");
-    workspace.innerHTML = "<br><p id='catface'><img src=./img/cat.jpg></p>";
+    workspace.innerHTML = "<br><p id='catface'><img src=./img/averageCat.jpg></p>";
     let del = document.getElementById("fish");
     del.src = "";
 }
