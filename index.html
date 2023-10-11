@@ -2,6 +2,9 @@
 <html>
     <head>
         <title>i turned a archdemon into a table once</title>
+        <script src="./js/jquery.js"></script>
+        <script src="./js/onClick.js"></script>
+        <script src="./js/fetch.js"></script>
         <style>
             .wrapper{
                 box-sizing: border-box;
@@ -88,37 +91,25 @@
                 </div>
             </div>
             <div class="wrapper menu">
-                <div class="menuItem">
-                    Programming Languages
+                <div class="menuItem ProgLang">
+                    <button onclick="progLang()">Programming Languages</button>
                 </div>
-                <div class="menuItem">
-                    Work Experiences
+                <div class="menuItem WorkExp">
+                    <button onclick="WorkXP()">Work Experiences</button>
                 </div>
-                <div class="menuItem">
-                    Interests
+                <div class="menuItem Interests">
+                    <button onclick="Interests()">Interests</button>
+                </div>
+                <div class="menuItem POST">
+                    <button onclick="postScript()">POST</button>
                 </div>
             </div>
             <div class="wrapper information">
                 <div class="left">
                     <div class="leftMenuItem">
-                        Programming Languages
+                        Click on one of the tabs!
                         <div class="menuSubItem">
-                            I have several years of experience in C, C++, and Python.
-                        </div>
-                    </div>
-                    <div class="leftMenuItem">
-                        Work Experience
-                        <div class="menuSubItem">
-                            I worked a couple of menial jobs throughout high school, leaving on good terms. I have been tutoring mathematics for UIndy since my Freshman year of college.
-                        </div>
-                    </div>
-                    <div class="leftMenuItem">
-                        Interests
-                        <div class="menuSubItem">
-                            I've had an interest in algebraic math since middle school, and originally planned on majoring in it before suddenly gaining an interest in programmming in high school.    
-                        </div>
-                        <div class="menuSubItem">
-                            I enjoy automating tasks on my computer, such as creating an application that would roll stats for my DnD character. This also extends to my interest in video games, two of my favorites being Satisfactory and Factorio, two games about automating tasks.   
+                            They will show different information.
                         </div>
                     </div>
                 </div>
