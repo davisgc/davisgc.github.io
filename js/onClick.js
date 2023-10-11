@@ -56,7 +56,7 @@ function PopCat(){
     title[0].innerHTML = 'Feed the Cat';
     title[0].innerHTML += '<div class="menuSubItem">\n';
     workspace[0].innerHTML = "<img id='fish' src='./img/fish.jpg' width=128px onmousedown='mouseDownFish()'>";
-    workspace[0].innerHTML += "<br><p id='catface'><img src=./img/cat.jpg></p>"
+    workspace[0].innerHTML += "<br><p id='catface'><img src='./img/cat.jpg'></p>";
 }
 
 function fixFace(){
