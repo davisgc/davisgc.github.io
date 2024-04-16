@@ -37,7 +37,7 @@ function evangelicalismExclaim(){
     title[0].innerHTML = 'Evangelicalism:';
     title[0].innerHTML += '<div class="menuSubItem">\n';
     subtitle[0].innerText = "Why?";
-    workspace[0].innerHTML = "More of my own interpretation, but: <br><br> ";
+    workspace[0].innerHTML = "Moreso of my own interpretation, but: <br><br> ";
     workspace[0].innerHTML += "Evangelicalism is an escape from the complexity of the church.<br><br> ";
     workspace[0].innerHTML += "When Luther would spread his booklets, they were described as \"short and direct\", and Evangelicalism seems to be an extension of this.<br><br>";
     workspace[0].innerHTML += "Returning to a more \"casual\" relationship with Jesus is far more efficient.<br><br>";
@@ -77,7 +77,7 @@ function TheEvent(){
     subtitle[0].innerText = "What Did I Attend?";
     workspace[0].innerHTML = "I attended the livestreamed event from the group called \"Life.Church\". The event was livestreamed on their YouTube channel by the same name. It was titled <a href=\"https://www.youtube.com/watch?v=aMprbls910M\">Trusting God When You Don't Understand</a>";
     workspace[0].innerHTML += " (VOD linked.)<br><br><img src='img/event.png' height=300px><br><br>";
-    workspace[0].innerHTML += "The event started with a few messages from the hosts (?) and 20 minutes of music before the speaker came on stage.<br>";
+    workspace[0].innerHTML += "The event started with a few messages from the hosts (?) and ~20 minutes of music before the speaker came on stage. There were many different types of music that were performed live.<br>";
     workspace[0].innerHTML += "<img src='img/music.png' height=300px><br>";
 }
 
